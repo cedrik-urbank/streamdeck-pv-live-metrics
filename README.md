@@ -1,4 +1,4 @@
-# PV Live Metrics for Stream Deck <img src="./assets/icon.png" width="30" style="filter: invert(1);" />
+# PV Live Metrics for Stream Deck <img src="./assets/logo.png" width="30" style="filter: invert(1);" />
 
 ![Version](https://img.shields.io/badge/version-1.0.0.0-orange)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
