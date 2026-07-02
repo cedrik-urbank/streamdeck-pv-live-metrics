@@ -3,7 +3,6 @@
 ![CI](https://github.com/cedrik-urbank/streamdeck-pv-live-metrics/actions/workflows/ci.yml/badge.svg?branch=main)
 ![Release](https://img.shields.io/github/v/release/cedrik-urbank/streamdeck-pv-live-metrics)
 
-![Version](https://img.shields.io/badge/version-1.0.0.0-orange)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
 ![Stream Deck SDK](https://img.shields.io/badge/Stream%20Deck-SDK%20v3-blue)
 ![Node.js](https://img.shields.io/badge/node-%3E%3D24-brightgreen)
