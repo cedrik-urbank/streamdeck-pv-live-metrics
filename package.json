@@ -4,7 +4,8 @@
         "watch": "rollup -c -w --watch.onEnd=\"streamdeck restart de.cedrik.pv-live-metrics\"",
         "lint": "eslint --max-warnings 0",
         "pack": "streamdeck pack de.cedrik.pv-live-metrics.sdPlugin -f -o dist",
-        "validate": "streamdeck validate de.cedrik.pv-live-metrics.sdPlugin"
+        "validate": "streamdeck validate de.cedrik.pv-live-metrics.sdPlugin",
+        "release": "node scripts/release.js"
     },
     "prettier": "@elgato/prettier-config",
     "type": "module",
