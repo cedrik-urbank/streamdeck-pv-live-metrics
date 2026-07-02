@@ -1,4 +1,4 @@
-# PV Live Metrics for Stream Deck
+# PV Live Metrics for Stream Deck <img src="./assets/icon.png" width="30" style="filter: invert(1);" />
 
 ![Version](https://img.shields.io/badge/version-1.0.0.0-orange)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
@@ -54,7 +54,7 @@ with the field:
 
 ```json
 {
-  "total_power": 1234
+    "total_power": 1234
 }
 ```
 
@@ -70,7 +70,7 @@ with the field:
 
 ```json
 {
-  "power": 820
+    "power": 820
 }
 ```
 
@@ -87,8 +87,8 @@ House Consumption = PV Generation + Grid Power
 where:
 
 - Grid Power:
-  - positive = importing electricity from the grid
-  - negative = exporting excess PV energy to the grid
+    - positive = importing electricity from the grid
+    - negative = exporting excess PV energy to the grid
 
 The displayed percentage is:
 
@@ -100,11 +100,11 @@ Values above 100% are capped at 100%.
 
 ## Configuration
 
-| Setting | Description |
-|---------|-------------|
-| House Meter IP | IP address of the Shelly measuring grid import/export |
-| PV Meter IPs | One IP address per line |
-| Refresh Interval | Update interval in milliseconds (minimum: 1000 ms) |
+| Setting          | Description                                           |
+| ---------------- | ----------------------------------------------------- |
+| House Meter IP   | IP address of the Shelly measuring grid import/export |
+| PV Meter IPs     | One IP address per line                               |
+| Refresh Interval | Update interval in milliseconds (minimum: 1000 ms)    |
 
 Example:
 
@@ -114,13 +114,13 @@ Example:
 
 The gauge color reflects current PV coverage and adapts dynamically based on real-time energy data:
 
-| Coverage range | State | Color | Preview |
-|----------------|-------|-------|----------|
-| < 5% | No / critical PV coverage | 🔴 Red | ![](assets/gauge/red.png) |
-| 5–25% | Low solar contribution | 🟠 Orange | ![](assets/gauge/orange.png) |
-| 25–60% | Moderate solar usage | 🟡 Yellow | ![](assets/gauge/yellow.png) |
-| 60–85% | Strong solar production | 🟢 Green | ![](assets/gauge/green.png) |
-| ≥ 85% | Peak / near full coverage | 🟢 Dark Green | ![](assets/gauge/darkgreen.png) |
+| Coverage range | State                     | Color         | Preview                         |
+| -------------- | ------------------------- | ------------- | ------------------------------- |
+| < 5%           | No / critical PV coverage | 🔴 Red        | ![](assets/gauge/red.png)       |
+| 5–25%          | Low solar contribution    | 🟠 Orange     | ![](assets/gauge/orange.png)    |
+| 25–60%         | Moderate solar usage      | 🟡 Yellow     | ![](assets/gauge/yellow.png)    |
+| 60–85%         | Strong solar production   | 🟢 Green      | ![](assets/gauge/green.png)     |
+| ≥ 85%          | Peak / near full coverage | 🟢 Dark Green | ![](assets/gauge/darkgreen.png) |
 
 > **Note**: The preview screenshots use simulated values and do not reflect real household consumption.
 
@@ -193,10 +193,10 @@ To create a production-ready build:
 npm run build
 ```
 
-After building the plugin, use the Stream Deck SDK tooling to package it:
+After building the plugin, use the pack script to package it:
 
 ```bash
-streamdeck pack de.cedrik.pv-live-metrics.sdPlugin
+npm run pack
 ```
 
 This generates a `.streamDeckPlugin` file that can be installed or distributed.
@@ -206,5 +206,6 @@ This generates a `.streamDeckPlugin` file that can be installed or distributed.
 This project is licensed under the MIT License. See [LICENSE](./LICENSE) for details.
 
 ## Official Documentation
+
 - Getting Started:
-https://docs.elgato.com/streamdeck/sdk/introduction/getting-started
+  https://docs.elgato.com/streamdeck/sdk/introduction/getting-started
