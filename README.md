@@ -122,6 +122,8 @@ The gauge color reflects current PV coverage and adapts dynamically based on rea
 | 60–85% | Strong solar production | 🟢 Green | ![](assets/gauge/green.png) |
 | ≥ 85% | Peak / near full coverage | 🟢 Dark Green | ![](assets/gauge/darkgreen.png) |
 
+> **Note**: The preview screenshots use simulated values and do not reflect real household consumption.
+
 ## Error Handling
 
 If the configuration is invalid:
