@@ -1,0 +1,47 @@
+{
+    "Name": "PV Live Metrics",
+    "Version": "1.0.0.0",
+    "Author": "cedrik",
+    "Actions": [
+        {
+            "Name": "PV Overview",
+            "UUID": "de.cedrik.pv-live-metrics.pv-overview",
+            "Icon": "imgs/actions/icon",
+            "Tooltip": "Displays PV overview information.",
+            "PropertyInspectorPath": "ui/pv-overview.html",
+            "Controllers": [
+                "Keypad"
+            ],
+            "States": [
+                {
+                    "Image": "imgs/actions/key",
+                    "TitleAlignment": "middle"
+                }
+            ]
+        }
+    ],
+    "Category": "PV Live Metrics",
+    "CategoryIcon": "imgs/plugin/category-icon",
+    "CodePath": "bin/plugin.js",
+    "Description": "Local photovoltaic monitoring using the Shelly Gen1 HTTP API. This plugin is not affiliated with or endorsed by Shelly.",
+    "Icon": "imgs/plugin/marketplace",
+    "SDKVersion": 3,
+    "Software": {
+        "MinimumVersion": "7.4"
+    },
+    "OS": [
+        {
+            "Platform": "mac",
+            "MinimumVersion": "12"
+        },
+        {
+            "Platform": "windows",
+            "MinimumVersion": "10"
+        }
+    ],
+    "Nodejs": {
+        "Version": "24",
+        "Debug": "enabled"
+    },
+    "UUID": "de.cedrik.pv-live-metrics"
+}
