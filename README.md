@@ -179,6 +179,12 @@ Any changes will automatically rebuild the plugin and update Stream Deck.
 
 ## Production build
 
+Install dependencies:
+
+```bash
+npm install
+```
+
 To create a production-ready build:
 
 ```bash
