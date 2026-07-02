@@ -1,5 +1,8 @@
 # PV Live Metrics for Stream Deck <img src="./assets/logo.png" width="30" style="filter: invert(1);" />
 
+![CI](https://github.com/cedrik-urbank/streamdeck-pv-live-metrics/actions/workflows/ci.yml/badge.svg?branch=main)
+![Release](https://img.shields.io/github/v/release/cedrik-urbank/streamdeck-pv-live-metrics)
+
 ![Version](https://img.shields.io/badge/version-1.0.0.0-orange)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
 ![Stream Deck SDK](https://img.shields.io/badge/Stream%20Deck-SDK%20v3-blue)
