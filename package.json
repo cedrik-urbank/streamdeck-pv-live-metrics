@@ -2,7 +2,8 @@
     "scripts": {
         "build": "rollup -c",
         "watch": "rollup -c -w --watch.onEnd=\"streamdeck restart de.cedrik.pv-live-metrics\"",
-        "lint": "eslint --max-warnings 0"
+        "lint": "eslint --max-warnings 0",
+        "pack": "streamdeck pack de.cedrik.pv-live-metrics.sdPlugin -f"
     },
     "prettier": "@elgato/prettier-config",
     "type": "module",
